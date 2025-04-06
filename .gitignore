@@ -33,3 +33,8 @@ model_weights/*.pth
 Thumbs.db
 *.log
 *.tmp
+
+# Ignore large files and site-packages
+.depthv2/
+model_weights/*.pth
+
