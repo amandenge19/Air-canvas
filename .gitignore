@@ -5,16 +5,31 @@ venv/
 env/
 .env/
 
+# IDE/editor files
+.vscode/
+.idea/
+
 # Python cache files
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# Large model files (if you don't want to use LFS)
-# model_weights/depth_anything_v2_vits.pth
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
 
-# Add other things you don't want to track (OS files, IDE settings, etc.)
+# Large model weights and checkpoints
+model_weights/*.pth
+*.pth
+*.pt
+*.onnx
+*.tflite
+*.ckpt
+*.pkl
+*.h5
+
+# OS and temp files
 .DS_Store
+Thumbs.db
 *.log
 *.tmp
