@@ -1,6 +1,20 @@
-# Ignore Python virtual environment
+# Python Virtual Environment
 .depthv2/
+venv/
+.venv/
+env/
+.env/
 
-# Ignore Python cache files
+# Python cache files
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Large model files (if you don't want to use LFS)
+# model_weights/depth_anything_v2_vits.pth
+
+# Add other things you don't want to track (OS files, IDE settings, etc.)
+.DS_Store
+*.log
+*.tmp
