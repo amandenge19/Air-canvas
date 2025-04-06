@@ -52,7 +52,7 @@ pip install -r requirements.txt
 
 - \`depth_anything_v2_vits.pth\` → Put it in \`model_weights/\`
 
-Get it from [here](https://github.com/isl-org/Depth-Anything#model-weights) (Depth-Anything repo)
+Get it from [here](https://github.com/DepthAnything/Depth-Anything-V2/blob/main/README.md) (Depth-Anything repo)
 
 ---
 
@@ -92,4 +92,4 @@ Make sure your webcam is connected!
 
 Made with ❤️ by **Ruchit**  
 Feel free to contribute, suggest or vibe with the code.  
-[LinkedIn](https://www.linkedin.com/in/rcidshacker/) | [GitHub](https://github.com/Rcidshacker)
+[LinkedIn](https://www.linkedin.com/in/ruchit-das-3b6a8a252/) | [GitHub](https://github.com/Rcidshacker)
