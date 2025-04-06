@@ -1,0 +1,17 @@
+Environment -  .depthv2\Scripts\activate 
+Python file - python depthtrack.py
+
+ESC
+Quit the application.
+r
+Clear the Canvas (sets the paint window back to a white background).
+u
+Reload config.yaml (updates parameters such as depth_threshold, multi_pinch_threshold, etc., without restarting the program).
+b
+Increase Brightness by 0.1 (up to a maximum of 3.0).
+v
+Decrease Brightness by 0.1 (down to a minimum of 0.1).
+c
+Increase Contrast by 0.1 (up to a maximum of 3.0).
+x
+Decrease Contrast by 0.1 (down to a minimum of 0.1).

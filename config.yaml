@@ -1,0 +1,50 @@
+device: 'cuda'
+model_dir: "./model_weights"
+model_filename: "depth_anything_v2_vits.pth"
+model_type: 'vits'
+input_size: 256
+pen_down_threshold: 50
+window_width: 1280
+window_height: 800
+max_points: 1024
+brush_sizes: [5, 10, 15]
+colors:
+  - [255, 255, 255]
+  - [0, 0, 0]
+  - [255, 0, 0]
+  - [0, 255, 0]
+  - [0, 0, 255]
+  - [255, 255, 0]
+use_depth: true
+eraser_sizes: [20, 40]
+eraser_size_index: 0
+depth_threshold: 0.6
+initial_brightness: 1.0
+initial_contrast: 1.0
+min_detection_confidence: 0.5
+min_tracking_confidence: 0.7
+cursor_image_path: "cursor.png"
+cursor_scale: 0.06
+depth_frame_skip: 5
+top_bar_height: 50
+palette_width: 200
+palette_columns: 2
+spacing: 10
+tool_icons:
+  line: "line.png"
+  rectangle: "rectangle.png"
+  draw: "draw.png"
+  erase: "eraser.png"
+  circle: "circle.png"
+tool_icon_scale: 0.1
+
+# One Euro Filter
+one_euro_freq: 60.0
+one_euro_min_cutoff: 9.0
+one_euro_beta: 1
+one_euro_derivative_cutoff: 1.0
+
+# Multi-distance pinch detection
+multi_pinch_threshold: 60
+multi_separation_threshold: 70
+
