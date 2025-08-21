@@ -22,8 +22,8 @@ This is not just your regular canvas — this one's hands-free and brainy 😎
 ### 1. Clone the repo
 
 \`\`\`bash
-git clone https://github.com/Rcidshacker/Air-canvas-new.git
-cd Air-canvas-new
+git clone https://github.com/amandenge19/Air-canvas.git
+cd Air-canvas
 \`\`\`
 
 ### 2. Create a virtual environment (recommended)
@@ -90,6 +90,6 @@ Make sure your webcam is connected!
 
 ## 🙋‍♂️ Author
 
-Made with ❤️ by **Ruchit**  
+Made with ❤️ by **Ruchit,Aman**  
 Feel free to contribute, suggest or vibe with the code.  
-[LinkedIn](https://www.linkedin.com/in/ruchit-das-3b6a8a252/) | [GitHub](https://github.com/Rcidshacker)
+[LinkedIn](linkedin.com/in/aman-denge) | [GitHub](github.com/amandenge19)
